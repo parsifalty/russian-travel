@@ -6,7 +6,7 @@
 
 .header { 
     max-width: calc(100vw - 96px);
-    margin: auto;
+    margin: 28px auto 53px;
     margin-top: 28px;
 }
 
@@ -17,10 +17,8 @@
     height: 28px;
     text-decoration: center;
     position: absolute;
-}
-
-.header__lang-link:hover { 
-    text-decoration: underline;
+    font-size: 24px; 
+    line-height: 1.2;
 }
 
 .header__logo { 
@@ -28,12 +26,13 @@
     height: 52px;
 }
 
-.lang-link_pos1 { 
+.lang-link_pos_1 { 
     top: 46px;
     right: 95px;
+    text-decoration: underline; 
 }
 
-.lang-link_pos2 { 
+.lang-link_pos_2 { 
     top: 46px; 
     right: 48px;
 }
