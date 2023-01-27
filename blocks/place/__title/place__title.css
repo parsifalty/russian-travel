@@ -1,4 +1,4 @@
-@media screen and (max-width: 1280px) {
+@media screen and (min-width: 1280px) {
   .place__title {
     font-family: "Inter";
     font-style: normal;
@@ -35,7 +35,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .place__title {
     min-width: calc(100vw - 32px);
     font-family: "Inter";

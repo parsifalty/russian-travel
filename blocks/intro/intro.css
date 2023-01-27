@@ -1,4 +1,4 @@
-@media screen and (max-width: 1280px) {
+@media screen and (min-width: 1280px) {
   .intro {
     max-width: calc(100vw - 590px);
     margin-left: 148px;
@@ -21,7 +21,7 @@
   }
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (max-width: 767px) {
   .intro {
     max-width: calc(100vw - 32px);
     margin: 64px auto 64px;
