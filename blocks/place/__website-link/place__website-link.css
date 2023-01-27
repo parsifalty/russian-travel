@@ -13,6 +13,7 @@
 
   .place__website-link:hover {
     cursor: pointer;
+    opacity: 0.8;
   }
 }
 
@@ -31,6 +32,7 @@
 
   .place__website-link:hover {
     cursor: pointer;
+    opacity: 0.8;
   }
 }
 
@@ -49,6 +51,7 @@
 
   .place__website-link:hover {
     cursor: pointer;
+    opacity: 0.8;
   }
 }
 
@@ -62,6 +65,7 @@
     color: #fff;
     text-decoration: underline;
     margin: 0;
+    opacity: 0.8;
   }
 
   .place__website-link:hover {
