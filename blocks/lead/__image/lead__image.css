@@ -1,0 +1,31 @@
+@media screen and (max-width: 1280px) {
+  .lead__image {
+    max-width: 984px;
+    min-height: 615px;
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1279px) {
+  .lead__image {
+    max-width: 100%;
+    min-height: 580px;
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .lead__image {
+    max-width: 100%;
+    min-height: 480px;
+    box-sizing: border-box;
+  }
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .lead__image {
+    max-width: 100%;
+    min-height: 200px;
+    box-sizing: border-box;
+  }
+}
