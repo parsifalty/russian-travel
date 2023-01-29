@@ -1,6 +1,6 @@
 @media screen and (min-width: 1280px) {
   .cover__title {
-    max-width: 560px;
+    max-width: calc(100vw - 720px);
     font-family: "Inter";
     font-style: normal;
     font-weight: 900;

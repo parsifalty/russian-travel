@@ -2,7 +2,6 @@
   .lead {
     max-width: calc(100vw - 296px);
     margin: 53px auto 0;
-    overflow: hidden;
   }
 }
 
@@ -10,22 +9,12 @@
   .lead {
     max-width: calc(100vw - 96px);
     margin: 0 auto 0;
-    overflow: hidden;
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (max-width: 1023px) {
   .lead {
     max-width: calc(100vw);
     margin: 0;
-    overflow: hidden;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .lead {
-    max-width: calc(100vw);
-    margin: 0;
-    overflow: hidden;
   }
 }

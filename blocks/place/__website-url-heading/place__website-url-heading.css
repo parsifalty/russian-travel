@@ -1,51 +1,11 @@
-@media screen and (min-width: 1280px) {
-  .place__website-url-heading {
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1;
-    letter-spacing: 2px;
-    margin: 0;
-    color: #AAA;
-  }
-}
-
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
-  .place__website-url-heading {
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1;
-    letter-spacing: 2px;
-    margin: 0;
-    color: #AAA;
-  }
-}
-
-@media screen and (min-width: 768px) and (max-width: 1023px) {
-  .place__website-url-heading {
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1;
-    letter-spacing: 2px;
-    margin: 0;
-    color: #AAA;
-  }
-}
-
-@media screen and (max-width: 767px) {
-  .place__website-url-heading {
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 400;
-    font-size: 12px;
-    line-height: 1;
-    letter-spacing: 2px;
-    margin: 0;
-    color: #AAA;
-  }
+.place__website-url-heading {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1;
+  letter-spacing: 2px;
+  margin: 0;
+  color: #aaa;
+  text-transform: uppercase;
 }

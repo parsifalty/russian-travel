@@ -3,6 +3,7 @@
     max-width: calc(100vw - 296px);
     margin: 88px auto 92px;
     display: flex;
+    justify-content: center;
     flex-wrap: wrap;
     gap: 80px;
   }

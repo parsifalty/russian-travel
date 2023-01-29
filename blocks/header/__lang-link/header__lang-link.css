@@ -1,9 +1,7 @@
-@media screen and (min-width: 1280px) {
+@media screen and (min-width: 1024px) {
   .header__lang-link {
     text-decoration: none;
     color: #fff;
-    width: 30px;
-    height: 28px;
     font-size: 24px;
     line-height: 1.2;
     font-family: "Inter";
@@ -12,27 +10,8 @@
     text-align: right;
   }
 
-  .header__lang-link:nth-child(1) {
-    margin-right: 18px;
-  }
-}
-
-@media screen and (min-width: 1024px) and (max-width: 1279px) {
-  .header__lang-link {
-    text-decoration: none;
-    color: #fff;
-    width: 30px;
-    height: 28px;
-    font-size: 24px;
-    line-height: 1.2;
-    font-family: "Inter";
-    font-style: normal;
-    font-weight: 400;
-    text-align: right;
-  }
-
-  .header__lang-link:nth-child(1) {
-    margin-right: 18px;
+  .header__lang-link:hover {
+    opacity: 0.8;
   }
 }
 
@@ -40,8 +19,6 @@
   .header__lang-link {
     text-decoration: none;
     color: #fff;
-    width: 30px;
-    height: 28px;
     font-size: 24px;
     line-height: 1.17;
     font-family: "Inter";
@@ -50,8 +27,8 @@
     text-align: right;
   }
 
-  .header__lang-link:nth-child(1) {
-    margin-right: 18px;
+  .header__lang-link:hover {
+    opacity: 0.8;
   }
 }
 
@@ -59,8 +36,6 @@
   .header__lang-link {
     text-decoration: none;
     color: #fff;
-    width: 22px;
-    height: 20px;
     font-size: 18px;
     line-height: 1.11;
     font-family: "Inter";
@@ -69,7 +44,7 @@
     text-align: right;
   }
 
-  .header__lang-link:nth-child(1) {
-    margin-right: 18px;
+  .header__lang-link:hover {
+    opacity: 0.8;
   }
 }
