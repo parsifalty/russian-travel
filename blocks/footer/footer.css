@@ -1,11 +1,14 @@
+.footer { 
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
 @media screen and (min-width: 1024px) {
   .footer {
     max-width: calc(100vw - 96px);
     margin: 0 auto;
     margin-bottom: 24px;
-    position: relative;
-    display: flex;
-    justify-content: space-between;
   }
 }
 
@@ -14,9 +17,6 @@
     max-width: calc(100vw - 48px);
     margin: 0 auto;
     margin-bottom: 24px;
-    position: relative;
-    display: flex;
-    justify-content: space-between;
   }
 }
 
@@ -25,10 +25,7 @@
     max-width: calc(100vw - 134px);
     margin: 0;
     margin-left: 16px;
-    margin-bottom: 24px;
-    position: relative;
-    display: flex;
-    justify-content: space-between;
     flex-direction: column;
+    margin-bottom: 24px;
   }
 }
