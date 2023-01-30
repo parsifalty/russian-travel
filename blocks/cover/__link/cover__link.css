@@ -11,7 +11,7 @@
 
 @media screen and (min-width: 1280px) {
  .cover__link {
-  min-width: 100%;
+  width: 100%;
   min-height: 740px;
   gap: 32px;
  }
@@ -19,7 +19,7 @@
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
  .cover__link {
-  min-width: calc(100vw);
+  width: 100%;
   min-height: calc(100vw - 384px);
   gap: 32px;
  }
@@ -27,7 +27,7 @@
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
  .cover__link {
-  min-width: 100vw;
+ width: 100vw;
   min-height: calc(100vw - 288px);
   gap: 32px;
  }
@@ -35,7 +35,7 @@
 
 @media screen and (max-width: 767px) {
  .cover__link {
-  min-width: calc(100vw);
+  width: calc(100vw);
   min-height: calc(100vw - 120px);
   gap: 17px;
  }
