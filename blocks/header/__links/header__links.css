@@ -3,4 +3,5 @@
     justify-content: space-between;
     gap: 18px;
     padding: 0;
+    list-style-type: none;
 }
