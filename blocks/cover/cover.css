@@ -1,134 +1,68 @@
+.cover::before {
+ content: "";
+ position: absolute;
+ width: 100%;
+ background-color: #2a2c2f;
+ opacity: 0.3;
+ top: 0;
+ left: 0;
+ bottom: 0;
+ transition: opacity 0.5s linear;
+}
+
+.cover:hover::before {
+ opacity: 0.8;
+ background: #2a2c2f;
+}
+
 @media screen and (min-width: 1280px) {
-  .cover {
-    max-width: calc(100vw - 96px);
-    max-height: 740px;
-    margin: 0 auto 92px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 32px;
-    background-image: url(../../images/cover-trains.jpg);
-    background-position: center;
-    background-size: cover;
-    position: relative;
-  }
-
-  .cover::before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    background-color: #2a2c2f;
-    opacity: 0.3;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    transition: opacity .5s linear;
-  }
-
-  .cover:hover::before {
-    opacity: 0.8;
-    background: #2a2c2f;
-  }
+ .cover {
+  max-width: calc(100vw - 96px);
+  max-height: 740px;
+  margin: 0 auto 92px;
+  gap: 32px;
+  background-image: url(../../images/cover-trains.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+ }
 }
 
 @media screen and (min-width: 1024px) and (max-width: 1279px) {
-  .cover {
-    max-width: calc(100vw);
-    min-height: calc(100vw - 384px);
-    margin: 0 auto 92px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 32px;
-    background-image: url(../../images/cover-trains.jpg);
-    background-size: cover;
-    background-position: center;
-    position: relative;
-  }
-
-  .cover::before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    background-color: #2a2c2f;
-    opacity: 0.3;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    transition: opacity .5s linear;
-  }
-
-  .cover:hover::before {
-    opacity: 0.8;
-    background: #2a2c2f;
-  }
+ .cover {
+  max-width: calc(100vw);
+  min-height: calc(100vw - 384px);
+  margin: 0 auto 92px;
+  gap: 32px;
+  background-image: url(../../images/cover-trains.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+ }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1023px) {
-  .cover {
-    max-width: calc(100vw);
-    min-height: calc(100vw - 288px);
-    margin: 0 auto 88px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 32px;
-    background-image: url(../../images/cover-trains.jpg);
-    background-size: cover;
-    background-position: center;
-    position: relative;
-  }
-
-  .cover::before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    background-color: #2a2c2f;
-    opacity: 0.3;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    transition: opacity 0.5s linear;
-  }
-
-  .cover:hover::before {
-    opacity: 0.8;
-    background: #2a2c2f;
-  }
+ .cover {
+  max-width: calc(100vw);
+  min-height: calc(100vw - 288px);
+  margin: 0 auto 88px;
+  gap: 32px;
+  background-image: url(../../images/cover-trains.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+ }
 }
 
 @media screen and (max-width: 767px) {
-  .cover {
-    max-width: calc(100vw);
-    min-height: calc(100vw - 120px);
-    margin: 0 auto 64px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 17px;
-    background-image: url(../../images/cover-trains.jpg);
-    background-size: cover;
-    background-position: center;
-    position: relative;
-  }
-
-  .cover::before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    background-color: #2a2c2f;
-    opacity: 0.3;
-    top: 0;
-    left: 0;
-    bottom: 0;
-    transition: opacity .5s linear;
-  }
-
-  .cover:hover::before {
-    opacity: 0.8;
-    background: #2a2c2f;
-  }
+ .cover {
+  max-width: calc(100vw);
+  min-height: calc(100vw - 120px);
+  margin: 0 auto 64px;
+  gap: 17px;
+  background-image: url(../../images/cover-trains.jpg);
+  background-size: cover;
+  background-position: center;
+  position: relative;
+ }
 }
