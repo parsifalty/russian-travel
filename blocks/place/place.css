@@ -23,7 +23,7 @@
   .place {
     max-width: calc(100vw - 48px);
     display: grid;
-    gap: 44px 28px;
+    gap: 48px 28px;
     grid-template-columns: 340px 352px;
     grid-template-rows: auto;
     margin: 0 auto;

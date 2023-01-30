@@ -1,7 +1,7 @@
 @media screen and (min-width: 1280px) {
   .cover {
     max-width: calc(100vw - 96px);
-    min-height: calc(100vw - 540px);
+    max-height: 740px;
     margin: 0 auto 92px;
     display: flex;
     flex-direction: column;
